@@ -35,5 +35,14 @@ function App() {
 export default App
 */
 
+const App = () => {
+return( <div>
+  <nav>
+    <div className="logo">
+      <img src="/"></img>
+    </div>
+  </nav>
+</div>
+)};
 
-
+export default App;
