@@ -7,8 +7,13 @@ const ContactForm = () => {
   return (
     <section className={styles.container}>
       <div className={styles.contact_form}>
-        <Button text="Via Support Chat" icon={<MdMessage fontSize="24px" />} />
-        <Button text="Via Call" icon={<FaPhoneAlt fontSize="24px" />} />
+        <div className={styles.top_btn}>
+          <Button
+            text="Via Support Chat"
+            icon={<MdMessage fontSize="24px" />}
+          />
+          <Button text="Via Call" icon={<FaPhoneAlt fontSize="24px" />} />
+        </div>
       </div>
       <div className={styles.contact_image}></div>
     </section>
